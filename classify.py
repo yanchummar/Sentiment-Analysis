@@ -38,7 +38,7 @@ def classify():
     model_pred.load_weights('output/model.h5')
 
     # okay here's the interactive part
-    input_text = input('Text to classify:')
+    input_text = input('Text to classify: ')
 
     # format your input for the neural net
     text_indices = convert_text_to_index_array(input_text)
